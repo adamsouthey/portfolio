@@ -90,6 +90,9 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+  .nav-item:nth-child(5) {
+    transition-delay: 0.5s; }
+
 * {
   box-sizing: border-box; }
 
@@ -194,6 +197,18 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+      .projects1 {
+        display: grid;
+        grid-gap: 4rem;
+        grid-template-columns: repeat(6, 1fr); }
+        .projects img {
+          width: 100%;
+          border: 3px #fff solid; }
+          .projects img:hover {
+            opacity: 0.5;
+            border-color: #eece1a;
+            transition: all 0.5s ease-out; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -295,4 +310,8 @@ main {
       border-radius: 70%;
       border: solid 2px #eece1a;
       margin-top: 40px;
+     }
+
+     i {
+       font-size:5em;
      }
